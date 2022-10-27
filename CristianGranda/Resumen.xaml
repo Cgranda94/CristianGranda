@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CristianGranda.Resumen">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Label x:Name="lblUsuario" Text="" HorizontalTextAlignment="End" FontSize="15"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Estudiante:" FontSize="18" Grid.Row="0" Grid.Column="0"/>
+                <Label x:Name="lblEstudiante"  Grid.Row="0" Grid.Column="1" FontSize="18"></Label>
+                <Label Text="Total a pagar semestre:" FontSize="18" Grid.Row="1" Grid.Column="0"/>
+                <Label x:Name="lblTotal" Grid.Row="1" Grid.Column="1" FontSize="18"></Label>
+                <Label x:Name="lblMensual" Grid.Row="1" Grid.Column="1"></Label>
+                
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
